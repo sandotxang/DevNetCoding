@@ -10,7 +10,7 @@ message = "**I am an IT-Professional, and I have completed this challenge!!!**"
 api=WebexTeamsAPI(access_token="ZmNmMDA5ZmYtNmNjNy00YTBlLThkMzUtMDg4YjhiMzJlYmFlNzUwMDFkYTctMzRj_PF84_consumer")
 
 
-#Deletes previous roms where i belong
+#Deletes previous rooms where i belong
 mem= api.memberships.list()
 for m in mem:
     print(m)
