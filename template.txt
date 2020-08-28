@@ -1,0 +1,3 @@
+username=PERSONAL_USER
+device=DEVICE_IP
+session_name=DEVICE_HOSTNAME
